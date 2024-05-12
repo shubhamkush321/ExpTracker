@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --color-yellow: #F5C32C;
+  --color-purple: #9d4edd;
+
+}
+.App{
+  text-align: center;
+  padding: 4em 0;
+}
+.bg-yellow{
+  background-color: var(--color-yellow);
+}
+.bg-purple{
+  background-color: var(--color-purple);
+}
